@@ -4,7 +4,7 @@ import cv2
 try:
     img = cv2.imread('ichigo.jpg')
     if img is None:
-        raise FileNotFoundError("ファイルがありません")
+        raise FileNotFoundError("ファイルがありませんです。")
     
     cv2.imshow('image',img)
     cv2.waitKey(0)
